@@ -1,0 +1,18 @@
+@import url('./main-layout.css');
+@import url('./views/second-view.css');
+@import url('./views/third-view.css');
+@import url('./views/forth-view.css');
+@import url('./views/gridwith-filters-view.css');
+    [theme~="dark"] {
+      --lumo-base-color: hsl(239, 39%, 19%);
+      --lumo-primary-color: hsl(241, 35%, 35%);
+      --lumo-primary-color-50pct: hsla(241, 35%, 35%, 0.5);
+      --lumo-primary-color-10pct: hsla(241, 35%, 35%, 0.1);
+      --lumo-error-color: hsl(359, 96%, 58%);
+      --lumo-error-color-50pct: hsla(359, 96%, 58%, 0.5);
+      --lumo-error-color-10pct: hsla(359, 96%, 58%, 0.1);
+      --lumo-error-text-color: hsl(359, 100%, 63%);
+      --lumo-primary-text-color: hsl(247, 0%, 99%);
+      --lumo-success-text-color: hsl(129, 81%, 35%);
+
+    }
